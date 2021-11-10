@@ -1,0 +1,51 @@
+
+<html>   
+    <head> 
+        <title>Calculator</title>
+    </head>
+    <body>  
+        <h1>Add</h1>        
+        <form action="http://localhost:9000/add" method = "post" target = "add-result">
+            <input type = "number" id="number1-input" name = "num1">
+            <span>+</span>
+            <input type = "number" id="number2-input" name = "num2">
+            
+            <button id="add-btn"> Add</button>
+        </form>
+        <iframe name = "add-result"></iframe>
+    </body>
+    <body>  
+        <h1>Subtract</h1>        
+        <form action="http://localhost:9000/subtract" method = "post" target = "subtract-result">
+            <input type = "number" id="number3-input" name = "num3">
+            <span>-</span>
+            <input type = "number" id="number4-input" name = "num4">
+            
+            <button id="subtract-btn"> Subtract</button>
+        </form>
+        <iframe name = "subtract-result"></iframe>
+    </body>
+    <body>  
+        <h1>Multiply</h1>        
+        <form action="http://localhost:9000/multiply" method = "post" target = "multiply-result">
+            <input type = "number" id="number5-input" name = "num5">
+            <span>*</span>
+            <input type = "number" id="number6-input" name = "num6">
+            
+            <button id="multiply-btn"> Multiply</button>
+        </form>
+        <iframe name = "multiply-result"></iframe>
+    </body>
+    <body>  
+        <h1>Divide</h1>        
+        <form action="http://localhost:9000/divide" method = "post" target = "divide-result">
+            <input type = "number" id="number7-input" name = "num7">
+            <span>/</span>
+            <input type = "number" id="number8-input" name = "num8">
+            
+            <button id="divide-btn"> Divide</button>
+        </form>
+        <iframe name = "divide-result"></iframe>
+    </body>
+
+</html>
